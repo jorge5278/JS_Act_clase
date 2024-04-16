@@ -1,10 +1,21 @@
-    let num1 = parseInt(prompt("Ingrese el primer numero a comparar"));
-    let num2 = parseInt(prompt("Ingrese el segundo numero a comparar"));
-
-    if (num1 > num2) {
+function comparacion(){
+let num1 = parseInt(prompt("Ingrese el primer numero a comparar"));
+let num2 = parseInt(prompt("Ingrese el segundo numero a comparar"));
+  
+if (num1 > num2) {
         alert("El numero mayor es: " + num1);
     } else if (num1 == num2) {
         alert("Ambos numeros son iguales");
     } else {
         alert("El numero mayor es: " + num2);
     }
+}
+function logicos(){
+var v1 = false;
+var v2 = true; 
+console.log(v1 && v2)//false
+console.log(v1 ||	v2)//true
+console.log(!v1 && !v2)//false
+}
+logicos()
+comparacion()
