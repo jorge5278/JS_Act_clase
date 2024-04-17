@@ -17,5 +17,35 @@ console.log(v1 && v2)//false
 console.log(v1 ||	v2)//true
 console.log(!v1 && !v2)//false
 }
+function Variables(){
+let miUnfefined
+let miString = "Hola mundo";
+let miNumero = 42;
+let miBooleano = false
+let miNull = null
+
+console.log(typeof miUnfefined)
+console.log(typeof miString)
+console.log(typeof miNumero)
+console.log(typeof miBooleano)
+console.log(typeof miNull)
+
+}
+function Tipos(){
+let V1 = prompt("Ingrese el primer dato");
+
+if (!isNaN(V1)){
+  console.log("Es un numero")
+}
+  else if (V1 === "true" || V1 === "false"){
+    console.log("Es un booleano")
+  }
+  else {
+    console.log("Es un string")
+  }
+}
+
+Variables()
+Tipos()
 logicos()
 comparacion()
