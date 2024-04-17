@@ -44,7 +44,48 @@ if (!isNaN(V1)){
     console.log("Es un string")
   }
 }
+function Suma(){
+let n1 = 12; 
+let n2 = 43;
+let n3 = 21;
 
+console.log(n1 + n2 + n3)
+}
+function Multiplica(){
+let n1 = 12; 
+let n2 = 43;
+let n3 = 21;
+
+console.log(n1 * n2 * n3)
+
+}
+function Estring(){
+let n1 = "Hola"; 
+let n2 = "Holar";
+let n3 = "hpñañ";
+
+if (typeof n1 === "string" && typeof n2 === "string" && typeof n3 === "string"  ){
+    console.log("Son un string")
+}
+  else{
+      console.log("No son un string")
+  }
+}
+function verificaVocales(x){
+  const esVocal = /^[aeiou]$/i.test/(x)
+  
+  if(esVocal){
+    console.log("Es una vocal")
+  }
+  else{
+    console.log("No es una vocal")
+  }
+}
+
+Suma()
+Multiplica()
+Estring()
+verificaVocales("a")
 Variables()
 Tipos()
 logicos()
