@@ -81,7 +81,16 @@ function verificaVocales(x){
     console.log("No es una vocal")
   }
 }
-
+function validadEdad(edad){
+  
+  if (edad >= 18){
+    alert("Mayor de edad")
+  }
+  else{
+    alert("Menor de edad")
+  }
+}
+validadEdad(18)
 Suma()
 Multiplica()
 Estring()
